@@ -1,1 +1,2 @@
-window.contactsApp = angular.module('contactsApp', [])
+window.Sample = {}
+window.Sample.contactsApp = angular.module('contactsApp', [])
