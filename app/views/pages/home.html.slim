@@ -1,1 +1,8 @@
 h1= "{{'AngularSample'}}"
+
+div ng-controller='ContactsController'
+  table.table
+    tr ng-repeat='contact in contacts'
+      td= "{{'contact.name'}}"
+      td= "{{'contact.phone'}}"
+      td= "{{'contact.address'}}"
